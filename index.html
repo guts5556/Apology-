@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Gentle Apology</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --pink: #f6c1d1;
+  --deep: #6b2f3f;
+  --soft: #fff3f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #fde7ef, #fff9fb);
+  font-family: 'Poppins', sans-serif;
+  color: var(--deep);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 90px 24px 120px;
+  text-align: center;
+  animation: fadeIn 2s ease;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.sub {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.rose {
+  font-size: 2.2rem;
+  margin: 30px 0;
+  animation: float 6s ease-in-out infinite;
+}
+
+.card {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 50px 40px;
+  margin-top: 50px;
+  box-shadow: 0 30px 60px rgba(246, 193, 209, 0.35);
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 720px;
+  margin: 28px auto;
+}
+
+.signature {
+  margin-top: 40px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.music {
+  margin-top: 60px;
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
+
+audio {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 90px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* floating petals */
+.petal {
+  position: fixed;
+  top: -10%;
+  font-size: 1.2rem;
+  opacity: 0.25;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(120vh) rotate(360deg);
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- petals -->
+<script>
+for (let i = 0; i < 20; i++) {
+  const petal = document.createElement("div");
+  petal.className = "petal";
+  petal.innerHTML = "🌸";
+  petal.style.left = Math.random() * 100 + "vw";
+  petal.style.animationDuration = 8 + Math.random() * 10 + "s";
+  petal.style.fontSize = 14 + Math.random() * 12 + "px";
+  document.body.appendChild(petal);
+}
+</script>
+
+<div class="container">
+
+  <h1>I’m Sorry</h1>
+  <div class="sub">said softly, honestly, without expectation</div>
+
+  <div class="rose">🌹</div>
+
+  <div class="card">
+
+    <p>
+      I want to begin with this —  
+      I am truly sorry for the way I spoke to you.
+    </p>
+
+    <p>
+      My tone wasn’t fair.  
+      It didn’t reflect the respect I have for you.
+      I spoke from anxiety instead of understanding,
+      and that’s something I take full responsibility for.
+    </p>
+
+    <p>
+      I’ve taken time to reflect,
+      and I understand now that I let my fear
+      shape my words and reactions.
+      That fear came from emotional attachment —
+      but that was never yours to handle.
+    </p>
+
+    <p>
+      You asking for space was reasonable.  
+      Especially during exams.  
+      I should have honored that immediately,
+      without questions or pressure.
+    </p>
+      <p>
+    I also want to say something important.
+  </p>
+
+  <p>
+    You are genuinely a good person.
+    Kind, honest, and thoughtful in your own way.
+  </p>
+
+  <p>
+    I’ve always appreciated the things you shared with me —
+    your drawings, your art,
+    the effort and emotion you put into them.
+  </p>
+
+  <p>
+    The way you see things and express yourself through your art
+    is beautiful.
+    It shows who you are,
+    and I’ve always respected that.
+  </p>
+
+  <p>
+    And yes,
+    you are beautiful —
+    not just in your photos or your smile,
+    but in the way you carry yourself
+    and the way you treat people.
+  </p>
+
+  <p>
+    I’m grateful for the conversations we’ve had,
+    for the trust you shared with me,
+    and for the moments you chose to let me see your world.
+  </p>
+
+  <p>
+    This isn’t to make you feel bad,
+    and it’s not to rush you into talking again.
+  </p>
+
+  <p>
+    I just wanted you to know
+    that I truly value you
+    and I’m genuinely sorry.
+  </p>
+    <p>
+      This isn’t an attempt to explain myself away,
+      or to change how you feel,
+      or to ask anything from you.
+    </p>
+
+    <p>
+      It’s simply an apology —
+      for crossing a boundary
+      and for not being as calm and respectful as I should have been.
+    </p>
+
+    <p>
+      I genuinely regret it.
+    </p>
+
+    <div class="signature">
+      🌸
+    </div>
+
+  </div>
+
+  <div class="rose">🌹</div>
+
+  <p>
+    Please take all the time and space you need.  
+    I respect it — completely.
+  </p>
+
+  <div class="music">
+    A song you love 🤍  
+    <br>
+    <audio controls>
+      <source src="lover-girl-lofi.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <footer>
+    with sincerity
+  </footer>
+
+</div>
+
+</body>
+</html>
